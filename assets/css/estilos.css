@@ -48,7 +48,7 @@ main {
 
 .bg-jumbotron {
 
-    background-image: url(/assets/img/fondo-jumbotron.png);
+    background-image: url(../img/fondo-jumbotron.png);
     background-size: contain;
     background-position: 80%;
     height: 80vh;
