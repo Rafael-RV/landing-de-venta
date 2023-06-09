@@ -100,7 +100,7 @@ main {
 
 .jumbotron{
     display: flex;
-    ;
+    
 }
 
 .jumbotron-content {
@@ -171,6 +171,12 @@ main h5{
     font-family: 'Dancing Script', cursive;
     font-size: 28px;
     font-weight: 150;
+}
+
+main .comprar{
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 
@@ -254,7 +260,16 @@ footer .text-dark{
 footer .contacto{
     display:flex;
     flex-direction: row;
-    padding-right: 5px;
+    
+}
+
+footer .inicio{
+    display: flex;
+    flex-direction: row;
+}
+
+footer .icono{
+width: 10%;    
 }
 
 @media (max-width:680px){
@@ -312,7 +327,7 @@ footer .contacto{
     }
 
     .jumbotron{
-        left: 0;
+        left: 200px;
         width: 100%;
     }
 
