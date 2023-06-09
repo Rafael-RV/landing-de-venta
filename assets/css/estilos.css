@@ -7,15 +7,18 @@
 header {
     display: flex;
     background-color: white;
-    justify-content: space-between; 
     padding: 10px;
     align-items: center;
+    justify-content: space-between;
+
  }
 
 header h2{
     font-family: 'Dancing Script', cursive;
     font-size: 90px;
     color: #F06E54;
+    display: flex;
+    justify-content: center;
     
     
 }
@@ -40,12 +43,14 @@ nav a:hover {
 .logo {
     display: flex;
     align-items: center;
+    
 }
 
 header img {
     width: 180px;
     height: 120px;
-    margin-right: 400px;
+    display: flex;
+    justify-content: space-between;
 }
 
 body{
@@ -85,12 +90,17 @@ main {
     justify-content: center ; 
     align-items: center;
     margin-top: 50px;
-    left: 50px;
+    left: 400px;
     width: 500px;
     height: 380px;
     background-color: #F06E54;
     padding: 20px;
     position: absolute;
+}
+
+.jumbotron{
+    display: flex;
+    ;
 }
 
 .jumbotron-content {
@@ -244,6 +254,7 @@ footer .text-dark{
 footer .contacto{
     display:flex;
     flex-direction: row;
+    padding-right: 5px;
 }
 
 @media (max-width:680px){
@@ -257,8 +268,11 @@ footer .contacto{
     }
     .jumbotron .jumbotron-overlay{
     width: 100%;
-    margin: 0;
+    margin-left: 0;
     left: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
      }
 
     .tarjetas{
@@ -290,6 +304,16 @@ footer .contacto{
     display: grid;
     grid-template-columns: auto;
     width: 80%;
+    }
+
+    nav a{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .jumbotron{
+        left: 0;
+        width: 100%;
     }
 
 }
