@@ -1,1 +1,1 @@
-Esta  landing page destaca un emprendimiento de repostería al proporcionar información esencial sobre la marca y sus productos. Desarrollada con HTML5 y CSS3 y Bootstrap 5.3.0-alpha3 para garantizar un diseño atractivo y una experiencia de usuario óptima en distintos dispositivos.
+Esta  landing page destaca un emprendimiento de repostería al proporcionar información esencial sobre la marca y sus productos. Desarrollada con HTML5, CSS3 y Bootstrap 5.3.0-alpha3 para garantizar un diseño atractivo y una experiencia de usuario óptima en distintos dispositivos.
