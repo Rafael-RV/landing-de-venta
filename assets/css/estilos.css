@@ -1,8 +1,4 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
-
-
 
 header {
     display: flex;
@@ -10,40 +6,30 @@ header {
     padding: 10px;
     align-items: center;
     justify-content: space-between;
+}
 
- }
-
-header h2{
+header h2 {
     font-family: 'Dancing Script', cursive;
     font-size: 90px;
     color: #F06E54;
-    display: flex;
-    justify-content: center;
-    
-    
+    text-align: center;
 }
 
-a {
-    text-decoration: none;
-    color: white;
-}
-
-nav a {
+.navbar-link,
+.nav-link {
     font-weight: bold;
-    padding-right: 15px;
-    margin-right: 0%;
-    color:#F06E54 ;
+    color: #F06E54;
+    text-decoration: none;
+    padding-right: 10px;
 }
 
-nav a:hover {
+a:hover {
     color: #F05BF0;
 }
-
 
 .logo {
     display: flex;
     align-items: center;
-    
 }
 
 header img {
@@ -53,54 +39,51 @@ header img {
     justify-content: space-between;
 }
 
-body{
-    background-color:#F06E54;
+body {
+    background-color: #F06E54;
 }
 
 main {
-
     display: flex;
     align-items: center;
     min-height: 70vh;
-    
+    margin: 10px;
+    padding: 10px;
 }
 
 .bg-jumbotron {
-
     background-image: url(../img/fondo-jumbotron.png);
     background-size: contain;
     background-position: 80%;
     height: 80vh;
-
+    margin-bottom: 0px;
 }
 
 .bg-jumbotron h1 {
     font-family: 'Dancing Script', cursive;
 }
 
-.bg-jumbotron p{
+.bg-jumbotron p {
     font-family: 'Dancing Script', cursive;
     font-size: 25px;
-    font-weight:100;
+    font-weight: 100;
 }
 
 .jumbotron-overlay {
-    
     display: flex;
-    justify-content: center ; 
+    justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin: 50px auto;
     left: 400px;
-    width: 500px;
-    height: 380px;
+    width: 30%;
+    max-width: 500px;
     background-color: #F06E54;
     padding: 20px;
     position: absolute;
 }
 
-.jumbotron{
+.jumbotron {
     display: flex;
-    
 }
 
 .jumbotron-content {
@@ -108,7 +91,7 @@ main {
     z-index: 1;
     color: white;
     text-align: center;
-
+    margin-top: 25px;
 }
 
 .btn-enviar {
@@ -122,8 +105,8 @@ main {
     margin-left: 40px;
 }
 
-input{
-    width: 180px ;
+input {
+    width: 180px;
     height: 40px;
     border-radius: 15px;
     text-align: center;
@@ -131,204 +114,177 @@ input{
     margin-bottom: 50px;
 }
 
-main{
-    margin: 30px;
-    
-    
-}
-
-main h1{
+main h1 {
     text-align: center;
     color: white;
     font-family: 'Dancing Script', cursive;
     font-size: 50px;
 }
 
-
-  
-
-.tarjetas{
+.tarjetas {
     display: flex;
     gap: 50px;
     flex-wrap: wrap;
 }
 
-.tarjeta{
+.tarjeta {
     width: 30%;
-     }
-
-.tarjeta img{
-    width: 100%;
-    height: 400px;
-    max-height: min-content;
 }
 
-.card-body{
+.tarjeta img {
+    width: 100%;
+    height: auto;
+}
+
+.card-body {
     background-color: #FCE4CA;
 }
 
-main h5{
+main h5 {
     font-family: 'Dancing Script', cursive;
     font-size: 28px;
-    font-weight: 150;
 }
 
-main .comprar{
+main .comprar {
     display: flex;
     justify-content: center;
     text-align: center;
+
 }
 
-
-
-.card-title-1{
+.card-title-1,
+.card-title-2,
+.card-title-3,
+.card-title-4,
+.card-title-5,
+.card-title-6 {
     width: 100%;
     text-align: center;
 }
 
-.card-title-2{
-    width: 100%;
-    text-align: center;
+main a {
+    margin: 0 auto;
 }
 
-.card-title-3{
-    width: 100%;
-    text-align: center;}
-
-.card-title-4{
-    width: 100%;
-    text-align: center;
-}
-
-.card-title-5{
-    width: 100%;
-    text-align: center;
-}
-
-.card-title-6{
-    width: 100%;
-    text-align: center;
-}
-
-main a{
-   margin: 0 auto;
-}
-
-aside{
+aside {
     margin-bottom: 20px;
-    width: 900px;
-    margin-left:15px;
-    
-    
-}   
+    width: 60%;
 
-aside h1{
+}
+
+aside h1 {
     color: white;
     width: 100%;
     text-align: center;
     font-family: 'Dancing Script', cursive;
     font-size: 50px;
-    justify-content: center
+    justify-content: center;
 }
 
-.grid-layaut{
+.grid-layaut {
     display: grid;
     grid-template-columns: auto auto;
 }
 
-aside h2{
-    margin-top: 20%;
+aside h2 {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
     color: white;
     font-family: 'Dancing Script', cursive;
 }
 
-footer{
+footer, a {
     background-color: white;
-    
+    text-decoration: none;
 }
 
-footer img{
+footer img {
     width: 180px;
     height: 120px;
 }
 
-footer .text-dark{
+footer .text-dark {
     display: flex;
-    
 }
 
-footer .contacto{
-    display:flex;
-    flex-direction: row;
-    
-}
-
-footer .inicio{
+footer .contacto {
     display: flex;
     flex-direction: row;
 }
 
-footer .icono{
-width: 10%;    
+footer .inicio {
+    display: flex;
+    flex-direction: row;
 }
 
-@media (max-width:680px){
-    header{
+footer .icono {
+    width: 10%;
+}
+
+@media (max-width: 680px) {
+    header {
         flex-flow: column wrap;
     }
-    .jumbotron{
+
+    header img {
+        width: 120px;
+        height: 80px;
+        margin-bottom: 10px;
+    }
+
+    header h2 {
+        font-size: 30px;
+    }
+
+
+    .jumbotron {
         display: flex;
-    justify-content: center;
-    align-items: center;
-    }
-    .jumbotron .jumbotron-overlay{
-    width: 100%;
-    margin-left: 0;
-    left: unset;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-     }
-
-    .tarjetas{
-    display: flex;
-    flex-flow: column;
+        justify-content: center;
+        align-items: center;
     }
 
-    .tarjetas .tarjeta{
-    width: 100%;
-    }
-
-    .tarjeta img{
-    width: 100%;
-    height: auto;           
-    }
-  
-    
-    aside{
-    width: 100%;
-    margin: 0;
-    }
-    
-    main{
-    margin: 0;
-    padding: 15px;
-    }
-
-    .grid-layaut{
-    display: grid;
-    grid-template-columns: auto;
-    width: 80%;
-    }
-
-    nav a{
-        display: flex;
-        flex-direction: row-reverse;
-    }
-
-    .jumbotron{
-        left: 200px;
+    .jumbotron .jumbotron-overlay {
         width: 100%;
+        left: unset;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tarjetas {
+        display: flex;
+        flex-flow: column;
+        gap: 15px;
+    }
+
+    .tarjeta {
+        width: 100%;
+    }
+
+    .tarjeta img {
+        width: 100%;
+        height: auto;
+    }
+
+    main a {
+        margin: 0;
+    }
+
+    aside {
+        width: 100%;
+        margin: 0;
+    }
+
+    main {
+        margin: 0;
+        padding: 10px;
+    }
+
+    .grid-layaut {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 15px;
     }
 
 }
